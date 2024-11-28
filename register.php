@@ -2,32 +2,7 @@
 require_once 'connectDB/config.php';
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <style>
-        .error {
-            color: #FF0000;
-        }
-    </style>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>عضویت در سایت</title>
-
-    <link href="css/bootstrap-rtl.css" rel="stylesheet">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/shop-homepage.css" rel="stylesheet">
-
-</head>
-
-<body>
+<?php include('./layout/header.php') ?>
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -196,25 +171,4 @@ require_once 'connectDB/config.php';
 <br>
 <br>
 <br>
-<!-- Footer -->
-<footer class="py-5 bg-dark">
-    <div class="container">
-        <p class="m-0 text-center text-white">تمامی حقوی مادی و معنوی این سایت در اختیار فروشگاه آنلاین می باشد
-            &nbsp;&nbsp;&nbsp;
-            <a href="https://instagram.com/onlineshop_golestan?utm_medium=copy_link" target="_blank"><img
-                        src="images/instagram.png"></a>
-            &nbsp;&nbsp;
-            <a href="https://api.whatsapp.com/send?phone=989905122127&text=%D8%B3%D9%84%D8%A7%D9%85"
-               target="_blank"><img src="images/whatsapp.png"></a>
-        </p>
-    </div>
-    <!-- /.container -->
-</footer>
-
-<!-- Bootstrap core JavaScript -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-
-</body>
-
-</html>
+<?php include('./layout/footer.php') ?>

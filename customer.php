@@ -1,26 +1,7 @@
 <?php
 require_once 'connectDB/config.php';
 ?>
-<html lang="en">
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>تایید نهایی سفارش</title>
-
-    <link href="css/bootstrap-rtl.css" rel="stylesheet">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/shop-homepage.css" rel="stylesheet">
-
-</head>
-
-<body>
+<?php include('./layout/header.php') ?>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
@@ -151,10 +132,5 @@ if (isset($_POST['saveOrder'])) {
     </div>
 </div>
 
-<!-- Bootstrap core JavaScript -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
 
-</body>
-
-</html>
+<?php include('./layout/footer.php') ?>

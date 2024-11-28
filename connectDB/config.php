@@ -1,3 +1,3 @@
 <?php
-$connection=mysqli_connect('localhost','root','','shopdbs');
+$connection=mysqli_connect('localhost','root','root','shopdbs');
 session_start();
